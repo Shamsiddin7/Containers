@@ -1,0 +1,93 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-nav-link {
+    color:#363940;
+    text-align: center;
+    font-family: "Rubik";
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.products{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+}
+
+.products-cards {
+    display: flex;
+    margin-top: 100px;
+    margin-left: 190px;
+    column-gap: 30px;
+}
+
+.products-cars-span {
+    display: block;
+    color: #6E38F7;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.carousel-indicators {
+    margin-bottom: 10px;
+}
+
+.corusel-title-1 {
+    margin-top: 30px;
+    margin-left: 50px;
+    color: #363940;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43px;
+}
+
+.corusel-cards {
+    margin-top: 50px;
+    margin-bottom: 70px;
+    column-gap: 40px;
+    row-gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.corusel-title {
+    color: #363940;
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+}
+
+.corusel-text {
+    width: 300px;
+    color: #363940;
+    font-family: "Rubik";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
